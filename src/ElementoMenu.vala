@@ -1,3 +1,11 @@
+/*
+ElementoMenu
+    Clase que contiene:
+        titulo del menu, 
+        un delegate que sirve para pasarle la funcion a ejecutar con un parametro string a
+        y un elemento de menu en caso de abrir otro menu
+*/
+
 public class ElementoMenu : Object {
 
     private string titulo;
