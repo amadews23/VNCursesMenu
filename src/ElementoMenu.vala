@@ -1,8 +1,12 @@
 /*
+Author: Tolo Vich
+Date:7/9/22
+Version: 1
+
 ElementoMenu
     Clase que contiene:
         titulo del menu, 
-        un delegate que sirve para pasarle la funcion a ejecutar con un parametro string a
+        un delegate que sirve para pasarle la funcion (void) a ejecutar con un parametro string a
         y un elemento de menu en caso de abrir otro menu
 */
 
@@ -51,9 +55,11 @@ public class ElementoMenu : Object {
     public string get_titulo() {
         return this.titulo;
     }
+    
     public ElementoMenu[] get_elementosMenu() {
     	return this.elementosMenu;
     }
+    
     /*public void set_delegateType(DelegateType delegateType) {
        this.delegateType = delegateType;
     }*/
