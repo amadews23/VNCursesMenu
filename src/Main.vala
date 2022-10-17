@@ -24,20 +24,20 @@ using Curses;
         ElementoMenu elementoMenu23 = new ElementoMenu("Seccion 1.3",d,"titulo12");        
         ElementoMenu elementoMenu24 = new ElementoMenu("Atras",d,"atrás");        
         
-   	ElementoMenu[] elementosMenu = { elementoMenu01,
-   	                                 elementoMenu02,
-   	                                 elementoMenu03,
-   	                                 elementoMenu04 };
+   	    ElementoMenu[] elementosMenu = { elementoMenu01,
+   	                                     elementoMenu02,
+   	                                     elementoMenu03,
+   	                                     elementoMenu04 };
    	                                 
-   	ElementoMenu[] elementosMenu2 = { elementoMenu20,
-   	                                 elementoMenu22,
-   	                                 elementoMenu23,
-   	                                 elementoMenu24 };    	                                 
+   	    ElementoMenu[] elementosMenu2 = { elementoMenu20,
+   	                                      elementoMenu22,
+   	                                      elementoMenu23,
+   	                                      elementoMenu24 };    	                                 
    	                                           
    	
-   	elementoMenu04.set_elementosMenu(elementosMenu2); 
+   	    elementoMenu04.set_elementosMenu(elementosMenu2); 
 
-   	elementoMenu24.set_elementosMenu(elementosMenu); 
+   	    elementoMenu24.set_elementosMenu(elementosMenu); 
 
     	var menu1 = new UnMenu(elementosMenu);
 
